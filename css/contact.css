@@ -1,0 +1,94 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+}
+.nav-color
+{
+    background-color: white !important; 
+}
+.counter
+{
+    color: white;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #58a4b0;
+    position: absolute;
+    top: 11px;
+    right: 40px;
+}
+.nav-link
+{
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: black;
+    transition: .3s color ease-in;
+}
+.nav-link:hover
+{
+    color: crimson;
+
+}
+.nav-link i
+{
+    font-size: 25px;
+    color: black;
+}
+.logo
+{
+    padding: 0px;
+    margin: 0px;
+    width: 5%;
+}
+
+.form-control
+{
+    border:1px black solid;
+}
+
+
+
+footer
+{
+    margin-top: 100px;
+    padding: 20px;
+    background-color: black;
+}
+.footer
+{
+    width: 18%;
+    padding: 30px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+footer p
+{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    font-weight: 800;
+}
+footer p span
+{
+    color: crimson;
+}
+.footer i
+{
+    color: white;
+    font-size: 24px;
+    transition: .3s all;
+    cursor: pointer;
+}
+.footer i:hover
+{
+    color: crimson;
+}
+
